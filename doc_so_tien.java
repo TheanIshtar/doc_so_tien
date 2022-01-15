@@ -118,8 +118,11 @@ public class doc_so_tien {
                 System.out.print("Muoi ");
                 if (s.charAt(1) == '5')
                     System.out.print("Lam ");
-                else
-                    doc_so(s.charAt(1));
+                else{
+                    if (s.charAt(1)!='0'){
+                    doc_so(s.charAt(1));    
+                    }
+                }           
             }
         }
     }
